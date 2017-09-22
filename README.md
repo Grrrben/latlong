@@ -17,8 +17,8 @@ The Geodata object contains both Latitude and Longitude of the location that is 
 
 ```
 // Geodata. Note that the JSON from the api endpoints should either give both latitude and longitude or
-// give a comma seperated lat,lng Loc. The object contains a country which can be retrieved by the GetCountry
-// method. Optionally, a city var is available.
+// give a comma seperated lat,lng Loc. The object contains a country which can be retrieved by the 
+// GetCountry method. Optionally, a city var is available.
 type Geodata struct {
 	Ip string
 	Latitude float64
